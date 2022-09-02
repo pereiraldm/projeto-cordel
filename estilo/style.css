@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@font-face {
+    font-family: 'Passion One';
+    src: url('fontes/PassionOne-Regular.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@font-face {
+    font-family: Sriracha;
+    src: url('fontes/Sriracha-Regular.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+header{
+    background-color: black;
+    padding: 50px;
+    display: block;
+    text-align: justify;
+    flex-direction: column;
+}
+header > h1{
+    font-family: Passion One;
+    color: white;
+    font-size:10vw;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+header a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section{    
+    display: flex;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+section.texto {
+    font-family: Sriracha;
+    font-size: 3.5vw;
+    line-height: 2em;
+    flex-direction: column;
+}
+
+section.imagem{
+    background: url(imagens/background001.jpg) right center / cover no-repeat fixed;
+    border: rgb(51, 51, 51);
+}
+
+section.imagem > p {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 47%);
+    color: white;
+    font-family: Sriracha;
+    font-size: 3.5vw;
+    line-height: 2em;
+    flex-direction: column;
+}
+
+section.imagem2{
+    background: url(imagens/background002.jpg) right center / cover no-repeat fixed;
+    border: rgb(51, 51, 51);
+}
+
+section.imagem2 > p {
+    padding: 5px;
+    text-shadow: black 1px 1px 1px;
+    background-color: rgba(0, 0, 0, 47%);
+    color: white;
+    font-family: Sriracha;
+    font-size: 3.5vw;
+    line-height: 2em;
+    flex-direction: column;
+}
+
+footer{
+    background-color: black;
+    display: block;
+    text-align: center;  
+    padding: 10px;
+}
+
+footer p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
